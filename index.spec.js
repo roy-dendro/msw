@@ -38,6 +38,6 @@ describe('Search', () => {
             </ApolloProvider>
         )
 
-        await waitFor(() => screen.getByText('Error'))
+        await waitFor(() => screen.getByText('error'))
     })
 })
